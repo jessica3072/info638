@@ -6,7 +6,7 @@
     <body>
         <p>
             <h2>Challenge: Correct Change</h2>
-<br>    
+  
     
     
 <?php
@@ -36,7 +36,7 @@ $leftover = $a; /* Got this leftover idea from talking with Janet in peer review
     echo "You are due $changetotal in change total. ";
     echo    "<br />";
             
-    echo "You are due back\n .  $numdollars . $numnickels . $numquarters . $numnickels . $numcents . <br>"; 
+    echo "You are due back\n" .  $numdollars . "\ndollar(s),\n" . $numquarters . "\nquarter(s),\n" . $numdimes . "\ndime(s),\n" .  $numnickels . "\nnickel(s), and\n" . $numcents . "\ncent(s)" . "<br><br>"; 
             /* Still thinking through how to procede and which functions?? would be wise in this case*/
 
 
