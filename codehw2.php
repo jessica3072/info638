@@ -12,7 +12,7 @@
     
     
 <?php
-    /*Here we go, attempting the first challenge, trying to remember what function to use here... first obtain the sum of (10 * the first digit, 9 times the second, and so on until 1 times the last digit. Second, divide the sum by 11. If sum leaves no remainder, ISBN = valid.*/
+    /*first obtain the sum of (10 * the first digit, 9 times the second, and so on until 1 times the last digit. Second, divide the sum by 11. If sum leaves no remainder, ISBN = valid.*/
 
     
 $myISBN = "0812995821";
@@ -50,8 +50,16 @@ else
     }
     
 // getting closer! still working out kinks
+/* if ($some_variable % $some_other_variable > 0) 
+    {echo "isbn is not valid"}
+else {
+echo "isbn is valid!" 
+}
+*/
 
- 
+
+
+
       
 ?>
     
