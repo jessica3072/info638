@@ -87,11 +87,6 @@ echo "isbn is valid!"
     Create a PHP page that simulates a series of random coin tosses for 1, 3, 5, 7, and 9 flips. You should make your page visually interesting by using images to represent a toss of heads or tails, e.g.
     */
     
-
-    
-$count = 1;
-    
-echo "Flipping a coin $count time(s)..." . "<br>";
     
 
 // integers should be 1, 3, 5, 7
@@ -99,20 +94,34 @@ echo "Flipping a coin $count time(s)..." . "<br>";
 // generate random number with built-in function
 // how to include images??? where does saved image file go....
     
+
+function CoinTossGenerator($toss) {
+    echo "Flipping a coin $toss time(s)..." . "<br>";
+    echo "<img src=\"front.jpg\" alt=\"Heads\" max width=\"75\" max height=\"75\">" . "<br>";
+}
+
+CoinTossGenerator("1");
+CoinTossGenerator("3");
+CoinTossGenerator("5");
+CoinTossGenerator("7");
+CoinTossGenerator("9");
     
 
-// heads , tails images
 
-    echo "<img src=\"front.jpg\" alt=\"Heads\" max width=\"100\" max height=\"100\">" . "<br>";
-    echo "<img src=\"back.jpg\" alt=\"Tails\" max width=\"100\" max height=\"100\">" . "<br>";
+mt_rand(0,1);
+if ($return = 0)
+{
+    echo "<img src=\"front.jpg\" alt=\"Heads\" max width=\"75\" max height=\"75\">" . "<br>";
+}
     
+else 
+{
+    echo "<img src=\"back.jpg\" alt=\"Tails\" max width=\"75\" max height=\"75\">" . "<br>";
+}
+
     
     
 ?>
-    
-    
-    
-    
     
 </body>
 </html>
