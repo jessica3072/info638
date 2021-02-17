@@ -91,7 +91,7 @@ echo "isbn is valid!"
     
 $count = 1;
     
-echo "Flipping a coin $count time\(s\)...";
+echo "Flipping a coin $count time(s)...";
     
 
     
