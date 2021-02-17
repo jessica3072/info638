@@ -94,8 +94,7 @@ echo "isbn is valid!"
 // generate random number with built-in function
 // how to include images??? where does saved image file go....
     
-$toss = array(1, 3, 5, 7);
-echo "Flipping a coin $toss[0] time(s)..." . "<br><br>";
+
     
 /*"<img src=\"front.jpg\" alt=\"Heads\" max width=\"75\" max height=\"75\">" . "<br>";    */
     
@@ -110,6 +109,11 @@ return CoinTossGenerator("9");
     
 }
 
+/* here I inelegantly begin the printed statements and repeat for each of the 1, 3, 5, 7 times*/
+    
+$toss = array(1, 3, 5, 7);
+echo "Flipping a coin $toss[0] time(s)..." . "<br><br>";
+    
 mt_rand(0,1);
 if ($return = 0)
 {
@@ -122,9 +126,39 @@ else
 }
 
 echo "Flipping a coin $toss[1] time(s)..." . "<br><br>";
-echo "Flipping a coin $toss[2] time(s)..." . "<br><br>";
-echo "Flipping a coin $toss[3] time(s)..." . "<br><br>";
+    mt_rand(0,1);
+if ($return = 0)
+{
+    echo "<img src=\"front.jpg\" alt=\"Heads\" max width=\"75\" max height=\"75\">" . "<br>";
+}
     
+else 
+{
+    echo "<img src=\"back.jpg\" alt=\"Tails\" max width=\"75\" max height=\"75\">" . "<br>";
+}
+
+echo "Flipping a coin $toss[2] time(s)..." . "<br><br>";
+    mt_rand(0,1);
+if ($return = 0)
+{
+    echo "<img src=\"front.jpg\" alt=\"Heads\" max width=\"75\" max height=\"75\">" . "<br>";
+}
+    
+else 
+{
+    echo "<img src=\"back.jpg\" alt=\"Tails\" max width=\"75\" max height=\"75\">" . "<br>";
+}
+echo "Flipping a coin $toss[3] time(s)..." . "<br><br>";
+    mt_rand(0,1);
+if ($return = 0)
+{
+    echo "<img src=\"front.jpg\" alt=\"Heads\" max width=\"75\" max height=\"75\">" . "<br>";
+}
+    
+else 
+{
+    echo "<img src=\"back.jpg\" alt=\"Tails\" max width=\"75\" max height=\"75\">" . "<br>";
+}
     
     
     
