@@ -83,8 +83,24 @@ echo "isbn is valid!"
     <h2>Challenge: Coin Toss</h2>
     
 <?php
-    //Coin toss challenge
+    /*Coin toss challenge
+    Create a PHP page that simulates a series of random coin tosses for 1, 3, 5, 7, and 9 flips. You should make your page visually interesting by using images to represent a toss of heads or tails, e.g.
+    */
+    
+// how to include images??? where does saved image file go....
+    
+$count = 1;
+    
+echo "Flipping a coin $count time\(s\)...";
+    
 
+    
+    
+
+    
+    
+    
+    
 ?>
     
     
