@@ -94,19 +94,21 @@ echo "isbn is valid!"
 // generate random number with built-in function
 // how to include images??? where does saved image file go....
     
-
-function CoinTossGenerator($toss) {
-    echo "Flipping a coin $toss time(s)..." . "<br>";
-    echo "<img src=\"front.jpg\" alt=\"Heads\" max width=\"75\" max height=\"75\">" . "<br>";
-}
-
-CoinTossGenerator("1");
-CoinTossGenerator("3");
-CoinTossGenerator("5");
-CoinTossGenerator("7");
-CoinTossGenerator("9");
+$toss = array(1, 3, 5, 7);
+echo "Flipping a coin $toss[0] time(s)..." . "<br><br>";
     
-
+/*"<img src=\"front.jpg\" alt=\"Heads\" max width=\"75\" max height=\"75\">" . "<br>";    */
+    
+function CoinTossGenerator($toss) 
+{
+    
+return CoinTossGenerator("1");
+return CoinTossGenerator("3");
+return CoinTossGenerator("5");
+return CoinTossGenerator("7");
+return CoinTossGenerator("9");
+    
+}
 
 mt_rand(0,1);
 if ($return = 0)
@@ -119,6 +121,11 @@ else
     echo "<img src=\"back.jpg\" alt=\"Tails\" max width=\"75\" max height=\"75\">" . "<br>";
 }
 
+echo "Flipping a coin $toss[1] time(s)..." . "<br><br>";
+echo "Flipping a coin $toss[2] time(s)..." . "<br><br>";
+echo "Flipping a coin $toss[3] time(s)..." . "<br><br>";
+    
+    
     
     
 ?>
