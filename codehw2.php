@@ -88,7 +88,6 @@ echo "isbn is valid!"
     */
     
     
-
 // integers should be 1, 3, 5, 7    
 /*"<img src=\"front.jpg\" alt=\"Heads\" max width=\"75\" max height=\"75\">" . "<br>";    */
     
@@ -116,42 +115,42 @@ if ($return = 0)
     
 else 
 {
-    echo "<img src=\"back.jpg\" alt=\"Tails\" max width=\"75\" max height=\"75\">" . "<br>";
+    echo "<img src=\"back.jpg\" alt=\"Tails\" max width=\"75\">" . "<br>";
 }
 
 echo "Flipping a coin $toss[1] time(s)..." . "<br><br>";
     mt_rand(0,1);
 if ($return = 0)
 {
-    echo "<img src=\"front.jpg\" alt=\"Heads\" max width=\"75\" max height=\"75\">" . "<br>";
+    echo "<img src=\"front.jpg\" alt=\"Heads\" max width=\"75\">" . "<br>";
 }
     
 else 
 {
-    echo "<img src=\"back.jpg\" alt=\"Tails\" max width=\"75\" max height=\"75\">" . "<br>";
+    echo "<img src=\"back.jpg\" alt=\"Tails\" max width=\"75\">" . "<br>";
 }
 
 echo "Flipping a coin $toss[2] time(s)..." . "<br><br>";
     mt_rand(0,1);
 if ($return = 0)
 {
-    echo "<img src=\"front.jpg\" alt=\"Heads\" max width=\"75\" max height=\"75\">" . "<br>";
+    echo "<img src=\"front.jpg\" alt=\"Heads\" max width=\"75\">" . "<br>";
 }
     
 else 
 {
-    echo "<img src=\"back.jpg\" alt=\"Tails\" max width=\"75\" max height=\"75\">" . "<br>";
+    echo "<img src=\"back.jpg\" alt=\"Tails\" max width=\"75\">" . "<br>";
 }
 echo "Flipping a coin $toss[3] time(s)..." . "<br><br>";
     mt_rand(0,1);
 if ($return = 0)
 {
-    echo "<img src=\"front.jpg\" alt=\"Heads\" max width=\"75\" max height=\"75\">" . "<br>";
+    echo "<img src=\"front.jpg\" alt=\"Heads\" max width=\"75\">" . "<br>";
 }
     
 else 
 {
-    echo "<img src=\"back.jpg\" alt=\"Tails\" max width=\"75\" max height=\"75\">" . "<br>";
+    echo "<img src=\"back.jpg\" alt=\"Tails\" max width=\"75\">" . "<br>";
 }
     
     
