@@ -89,13 +89,7 @@ echo "isbn is valid!"
     
     
 
-// integers should be 1, 3, 5, 7
-
-// generate random number with built-in function
-// how to include images??? where does saved image file go....
-    
-
-    
+// integers should be 1, 3, 5, 7    
 /*"<img src=\"front.jpg\" alt=\"Heads\" max width=\"75\" max height=\"75\">" . "<br>";    */
     
 function CoinTossGenerator($toss) 
@@ -109,7 +103,7 @@ return CoinTossGenerator("9");
     
 }
 
-/* here I inelegantly begin the printed statements and repeat for each of the 1, 3, 5, 7 times*/
+/* here I inelegantly/inconsisely begin the printed statements and repeat for each of the 1, 3, 5, 7 times*/
     
 $toss = array(1, 3, 5, 7);
 echo "Flipping a coin $toss[0] time(s)..." . "<br><br>";
