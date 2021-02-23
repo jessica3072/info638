@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Practice
+    <title>Code HW 3
     </title>
 </head>
 <html>
