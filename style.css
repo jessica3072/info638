@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+/* spacing */
+
+table, th, td {
+  width: 100%;
+  border: 3px solid pink;
+}
+
+th, td {
+  padding: 8px;
+}
+
+
+th {
+  font-family: monospace;
+  color: cornflowerblue;
+  background-color: antiquewhite;
+}
+
+caption {
+    font-family: monospace;
+}
+
+td {
+    font-family: monospace;
+}
+
+
+</style>
+</head>
+<body>
+
+</body>
+</html>
