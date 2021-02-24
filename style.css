@@ -8,11 +8,13 @@
 table {
   width: 100%;
   border: 3px solid pink;
+  border-collapse: collapse;
   padding: 1px;
 }
 
 th, td {
   padding: 8px;
+  border: 3px solid pink;
 }
 
 
