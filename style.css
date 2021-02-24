@@ -5,27 +5,43 @@
 
 /* spacing */
 
+table, th, td {
+    border: 1px solid black;
+}
+
 table {
   width: 100%;
-  border: 3px solid pink;
+  border: 2px solid darkgreen;
   border-collapse: collapse;
-  padding: 1px;
+  padding: 6px;
 }
 
-th, td {
-  padding: 8px;
-  border: 3px solid pink;
+td {
+  padding: 5px;
+  border-bottom: 1px solid papayawhip;
+  border-collapse: collapse;
 }
 
+thead {
+    border: 2px solid darkgreen;
+}
+
+tr:hover {
+    border-color: bisque;
+    background-color: lightpink;
+}
 
 th {
   font-family: monospace;
-  color: cornflowerblue;
-  background-color: antiquewhite;
+  background-color: papayawhip;
+  padding: 6px;
+  text-align: left;
 }
 
 caption {
-    font-family: monospace;
+    font-family: arial;
+    text-align: left;
+    padding: 12px;
 }
 
 td {
