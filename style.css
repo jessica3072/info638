@@ -5,9 +5,10 @@
 
 /* spacing */
 
-table, th, td {
+table {
   width: 100%;
   border: 3px solid pink;
+  padding: 1px;
 }
 
 th, td {
