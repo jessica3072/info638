@@ -3,7 +3,6 @@
 <head>
 <style>
 
-/* spacing */
 
 table, th, td {
     border: 1px solid black;
@@ -40,7 +39,7 @@ th {
 
 caption {
     font-family: arial;
-    text-align: left;
+    text-align: center;
     padding: 12px;
 }
 
