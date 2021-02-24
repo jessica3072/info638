@@ -56,7 +56,10 @@ echo "Flipped 3 heads in a row, in \$coinCt flips.";
     
 /*2: modify code to use this argument to allow a variable number of heads in a row to be chosen
 */
-    
+
+/*still catching up on previous week's exercises and stuck on the coin toss from last week :(
+*/
+
 
 ?>
 </body>
