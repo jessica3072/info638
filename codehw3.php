@@ -46,11 +46,28 @@ echo "<table><caption>" . "Lovely Stylized Table" . "</caption><thead><tr><th>" 
 //part two
 echo "<br><h4>" . "2. Challenge: Coin Toss, continued" . "</h4>";
 //modify program to 1: be a function that takes one argument
+/*
+function flip()
+{
+    ; 
+}
+*/
+    
+$X = "[number of flips]";
+    
+    
+echo "Beginning the coin flipping, looking for 3 heads in a row..." . "<br>";
 
+echo "<br>" . "Flipped 3 heads in a row, in $X flips.";
     
 /*2: modify code to use this argument to allow a variable number of heads in a row to be chosen
 */
+    
+    
+    
+    
 //whoops running out of time
+
 
     
     
